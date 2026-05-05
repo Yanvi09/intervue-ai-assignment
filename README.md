@@ -121,23 +121,14 @@ It is intentionally simple, reliable, and easy to reason about.
 
 ---
 
-#  Why this version is better
+## Reflection
 
-- ✔ More **confident tone**  
-- ✔ Explicit **evaluation awareness**  
-- ✔ Cleaner outputs  
-- ✔ Still simple (not overdone)  
-- ✔ Sounds like **you built it intentionally**
+What surprised me was how random the output could be at first. Small changes in the prompt made a big difference in how clean and readable the result was.
 
----
+If I had more time, I would improve how topics are extracted from the transcript so they are more accurate and less keyword-based.
 
-#  Final answer
-
-- YES — you should replace your README with this  
-- This version = **stronger impression**
+One limitation is that the output still depends on the transcript quality. If the transcript is unclear, the summary can also be slightly inconsistent.
 
 ---
 
-Now you’re truly ready.
 
-- Say **“push now”** and we’ll submit clean 
