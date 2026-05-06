@@ -90,32 +90,38 @@ Clear separation of information
 No unnecessary hallucination
 
 ## Design Decisions
-Keep logic simple and readable
-Use one API call only
-Avoid unnecessary abstractions
-Add fallback to ensure reliability without API
+
+- Keep logic simple and readable
+- Use one API call only
+- Avoid unnecessary abstractions
+- Add fallback to ensure reliability without API
 
 ## Evaluation Focus
-This solution is built to demonstrate:
-Clear thinking over complex implementation
-Ability to control LLM output
-Structured reasoning and iteration
-Practical engineering decisions under time constraints
 
-##Limitations
-Fallback logic is keyword-based (not semantic)
-Limited depth without API
-Output quality depends on transcript clarity
-What I Would Improve
-Smarter fallback using lightweight NLP
-Better role detection across mixed profiles
-Optional multi-step prompting for higher accuracy
+- This solution is built to demonstrate:
+- Clear thinking over complex implementation
+- Ability to control LLM output
+- Structured reasoning and iteration
+- Practical engineering decisions under time constraints
 
-##Summary
-This project focuses on:
-Clarity over complexity
-Consistency over randomness
-Practical implementation over overengineering
+## Limitations
+
+- Fallback logic is keyword-based (not semantic)
+- Limited depth without API
+- Output quality depends on transcript clarity
+
+## What I Would Improve
+
+- Smarter fallback using lightweight NLP
+- Better role detection across mixed profiles
+- Optional multi-step prompting for higher accuracy
+
+## Summary
+
+- This project focuses on:
+- Clarity over complexity
+- Consistency over randomness
+- Practical implementation over overengineering
 
 It is intentionally simple, reliable, and easy to reason about.
 
